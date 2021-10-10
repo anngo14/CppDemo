@@ -1,0 +1,69 @@
+Arrays
+How Do Arrays Work? 
+How do you access the element at an index of an array?
+What if you want to delete an element at an index? 
+How do types affect arrays? 
+How do you swap two elements in an array? 
+
+Write a program to print out all elements in the array.
+Write a program to switch every two elements in the array. 
+ex. Input [1, 2, 3, 4, 5] Output [2, 1, 4, 3, 5]
+    Input [1, 2, 3, 4, 5, 6] Output [2, 1, 4, 3, 6, 5]
+Write a program that replaces all even elements in the array with 0.
+ex. Input [1, 2, 4, 5, 6, 7] Output [1, -1, -1, 5, -1, 7]
+
+Vectors
+How are they different from arrays? 
+Adding and removing elements to a vector? 
+
+Write a program to remove all odd elements in a vector.
+
+if statement
+what is an if statement? 
+else? 
+
+Write a program to sum all odd and even elements in a vector.
+ex. Input [1, 2, 3, 4, 5, 6] Output odd = 9 even = 12
+
+Loops
+for loop
+while loop
+do while loop
+
+what is an iteration of a loop? 
+when does a loop stop executing? 
+
+Nested Loops
+keeping track of nested loops
+which loop happens first? 
+break statement
+
+Variables
+what is a variable?
+data types?
+
+Functions (Function overload / override)
+what is a function? 
+how is it different from main?
+how is function overloading different from overriding?
+when do I need a function?
+
+Return types
+what is a return type? 
+where is it used? 
+what is the point of a return type?
+
+Regular pointers
+What is a pointer? 
+How do I get the value at a specific pointer?
+Why are pointers confusing? 
+Why do we need pointers? 
+
+I/O streams
+what are i/o streams? 
+how are they different from std::cout and std::cin?
+
+structs
+what are structs? 
+what are they used for? 
+what is an object / instance? 
