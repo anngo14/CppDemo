@@ -133,69 +133,29 @@ int main()
 }
 
 void printArray(int arr[], int size) {
-    for (int i = 0; i < size; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl << endl;
+   
 }
 
 void switchElements(int arr[], int size) {
-    for (int i = 0; i + 1 < size; i += 2) {
-        int firstNum = arr[i];
-        int secondNum = arr[i + 1];
-        int temp = firstNum;
-
-        arr[i] = secondNum; 
-        arr[i + 1] = temp;
-    }
+   
 }
 
 void deleteAllEvens(int arr[], int size) {
-    for (int i = 0; i < size; i++) {
-        if (arr[i] % 2 == 0) {
-            arr[i] = 0;
-        }
-    }
+   
 }
 
 vector<int> deleteAllOdds(vector<int> vect) {
-    vector<int> evens;
-    for (int i = 0; i < (int) vect.size(); i++) {
-        if (vect[i] % 2 == 0) {
-            evens.push_back(vect[i]);
-        }
-    }
-
-    return evens;
+   
 }
 
 void printVector(vector<int> vect) {
-    for (int i : vect) {
-        cout << i << " ";
-    }
-    cout << endl << endl;
+  
 }
 
 void sumOddsAndEvens(vector<int> vect) {
-    int odds = 0;
-    int evens = 0;
-
-    for (int i : vect) {
-        if (i % 2 == 0) {
-            evens += i;
-        }
-        else {
-            odds += i;
-        }
-    }
-
-    cout << "Odds = " << odds << endl;
-    cout << "Evens = " << evens << endl;
+    
 }
 
 void printMovie(Movie movie) {
-    cout << "name = " << movie.name << endl;
-    cout << "genre = " << movie.genre << endl;
-    cout << "year = " << movie.year << endl;
-    cout << endl;
+   
 }
