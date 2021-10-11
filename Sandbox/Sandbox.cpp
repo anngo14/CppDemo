@@ -95,7 +95,7 @@ int main()
     printVector(b);
 
     cout << "Vector with No Odd Elements" << endl;
-    b = deleteAllOdds(b);
+    //b = deleteAllOdds(b);
     printVector(b);
 
     cout << "Sum All Odds and Evens" << endl;
@@ -133,27 +133,55 @@ int main()
 }
 
 void printArray(int arr[], int size) {
-   
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+   }
+    cout << endl;
 }
 
 void switchElements(int arr[], int size) {
-   
+    for (int i = 0; i + 1 < size; i += 2) {
+        int tmp = arr[i];
+        arr[i] = arr[i + 1];
+        arr[i + 1] = tmp;
+    }
+    
 }
 
 void deleteAllEvens(int arr[], int size) {
-   
+    for (int i = 0; i < size; i++)
+        if (arr[i] % 2 ==0) {
+            arr[i] = 0;
+        }
+
 }
 
 vector<int> deleteAllOdds(vector<int> vect) {
-   
+    return vector<int>();
 }
 
 void printVector(vector<int> vect) {
-  
+    for (int i = 0; i < vect.size(); i++) {
+        cout << vect[i] << " ";
+    }
+    cout << endl << endl;
 }
 
 void sumOddsAndEvens(vector<int> vect) {
-    
+    int sumOdd = 0;
+    int sumEven = 0;
+    for (int i = 0; i < vect.size(); i++) {
+        if (vect[i] % 2 == 0) {
+           
+            sumEven += vect[i];
+        }
+        else {
+          
+            sumOdd += vect[i];
+        }
+    }
+    cout << "Even = " << sumEven << endl;
+    cout << "Odd = " << sumOdd << endl;
 }
 
 void printMovie(Movie movie) {
